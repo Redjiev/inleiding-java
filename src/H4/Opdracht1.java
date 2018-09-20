@@ -5,16 +5,14 @@ import java.awt.*;
 
 public class Opdracht1 extends Applet {
 
-    public void init() {
-        setSize(1000,500);
-        setBackground(Color.RED);
-    }
 
-    public void paint(Graphics g) {
+
+ public void paint(Graphics g) {
         g.setColor(Color.WHITE);
         g.drawLine(100,100,300,100);
         g.drawLine(100,100, 200,300);
         g.drawLine(300,100,200,300);
+
 
 
 
